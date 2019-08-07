@@ -10,9 +10,9 @@ function stringReverse(string) {
   //or equal to 0. each time we go over the loop lower the value of i by 1
   for(let i=stringArray.length-1; i >= 0; i--) {
     //for each item in our array add it to the end of our string
-    reversedString += stringArray[i]
-    console.log(reversedString) 
+    reversedString += stringArray[i]    
   }  
+  console.log(reversedString) 
 }
 stringReverse(myString)
 //***Next try to figure out how to reverse multiple words but keep the order of the words the same
